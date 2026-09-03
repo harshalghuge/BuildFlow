@@ -183,9 +183,9 @@ export default function Home({
         </div>
 
         {/* Clients + Sites hero */}
-        <div className="grid gap-6 lg:grid-cols-2">
+        <div className="grid grid-cols-1 gap-5 lg:grid-cols-2 lg:gap-6">
         <section className="rounded-2xl border border-slate-200 bg-white">
-          <div className="flex items-center justify-between border-b border-slate-100 px-5 py-4">
+          <div className="flex flex-col gap-3 border-b border-slate-100 px-4 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-5">
             <div>
               <h2 className="font-bold text-slate-900">Clients</h2>
               <p className="mt-0.5 text-xs text-slate-500">
@@ -274,7 +274,7 @@ export default function Home({
 
         {/* Sites */}
         <section className="rounded-2xl border border-slate-200 bg-white">
-          <div className="flex items-center justify-between border-b border-slate-100 px-5 py-4">
+          <div className="flex flex-col gap-3 border-b border-slate-100 px-4 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-5">
             <div>
               <h2 className="font-bold text-slate-900">Recent Sites</h2>
               <p className="mt-0.5 text-xs text-slate-500">
@@ -361,7 +361,7 @@ export default function Home({
         </div>
 
         {/* Recent activity */}
-        <div className="grid gap-6 lg:grid-cols-2">
+        <div className="grid grid-cols-1 gap-5 lg:grid-cols-2 lg:gap-6">
           <section className="rounded-2xl border border-slate-200 bg-white">
             <div className="border-b border-slate-100 px-5 py-4">
               <h2 className="font-bold text-slate-900">Recent Deliveries</h2>
@@ -404,7 +404,7 @@ export default function Home({
           </section>
 
           <section className="rounded-2xl border border-slate-200 bg-white">
-            <div className="flex items-center justify-between border-b border-slate-100 px-5 py-4">
+            <div className="flex flex-col gap-3 border-b border-slate-100 px-4 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-5">
               <div>
                 <h2 className="font-bold text-slate-900">Materials</h2>
                 <p className="text-xs text-slate-500">

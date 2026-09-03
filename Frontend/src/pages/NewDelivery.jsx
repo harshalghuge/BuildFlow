@@ -178,8 +178,8 @@ export default function NewDelivery({ clients, sites, materials, onAddDelivery }
           )}
         </section>
 
-        <section className="flex justify-end">
-          <div className="w-full max-w-sm rounded-2xl border border-slate-200 bg-white p-5">
+        <section className="flex justify-stretch sm:justify-end">
+          <div className="w-full max-w-sm rounded-2xl border border-slate-200 bg-white p-5 sm:ml-auto">
             <div className="space-y-3 text-sm"><div className="flex justify-between"><span className="text-slate-500">Subtotal</span><b>{money(subtotal)}</b></div><div className="flex justify-between"><span className="text-slate-500">GST</span><b>{money(gst)}</b></div><div className="flex justify-between border-t border-slate-100 pt-3 text-base"><span className="font-semibold">Grand Total</span><b>{money(total)}</b></div></div>
             <button type="submit" disabled={submitting || !clientId || !siteId || !items.length} className="mt-5 w-full rounded-xl bg-slate-900 px-4 py-3 text-sm font-semibold text-white disabled:opacity-50">{submitting ? "Creating..." : "Create Delivery"}</button>
           </div>

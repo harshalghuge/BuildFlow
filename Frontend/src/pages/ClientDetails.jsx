@@ -261,7 +261,7 @@ export default function ClientDetails({
       </div>
 
       <section className="rounded-2xl border border-slate-200 bg-white">
-        <div className="flex items-center justify-between border-b border-slate-100 px-5 py-4">
+        <div className="flex flex-col gap-3 border-b border-slate-100 px-4 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-5">
           <div>
             <h2 className="font-bold">Construction Sites</h2>
             <p className="mt-1 text-xs text-slate-500">Sites belonging to this client.</p>

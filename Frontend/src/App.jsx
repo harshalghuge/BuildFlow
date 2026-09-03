@@ -421,7 +421,7 @@ function AppContent() {
     <div className="min-h-screen bg-slate-50 text-slate-900">
       <Header user={user} onLogout={logout} />
 
-      <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+      <main className="mx-auto max-w-7xl px-3 py-4 sm:px-6 sm:py-6 lg:px-8">
         {error && (
           <div className="mb-4 flex items-start justify-between gap-4 rounded-xl border border-rose-200 bg-rose-50 px-4 py-3 text-sm text-rose-700">
             <span>{error}</span>

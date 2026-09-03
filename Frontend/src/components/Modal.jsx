@@ -9,7 +9,7 @@ export default function Modal({
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/50 p-4"
+      className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/50 p-2 sm:p-4"
       onMouseDown={(e) => {
         if (e.target === e.currentTarget) {
           onClose();
@@ -20,7 +20,7 @@ export default function Modal({
         className={`w-full ${size} max-h-[90vh] overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl`}
       >
         {/* Header */}
-        <div className="flex items-center justify-between border-b border-slate-200 px-6 py-5">
+        <div className="flex items-center justify-between border-b border-slate-200 px-4 py-4 sm:px-6 sm:py-5">
           <h2 className="text-xl font-bold text-slate-900">
             {title}
           </h2>
@@ -35,7 +35,7 @@ export default function Modal({
         </div>
 
         {/* Body */}
-        <div className="max-h-[calc(90vh-80px)] overflow-y-auto px-6 py-6">
+        <div className="max-h-[calc(90vh-80px)] overflow-y-auto px-4 py-5 sm:px-6 sm:py-6">
           {children}
         </div>
       </div>
