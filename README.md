@@ -61,5 +61,3 @@ Frontend (.env or .env.local)
 ## Contributing
 - Fork → branch `feat/name` → open PR. Run lint/tests before submitting.
 
-## License
-MIT © Your Name
